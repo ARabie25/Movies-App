@@ -19,10 +19,10 @@ It supports offline mode and handles network connectivity gracefully.
 
 Below are screenshots showcasing the app's user interface:
 
-| **Splash Screen**  | **Movies List** | **Movie Details** |
-|--------------------|----------------------------|-------------------|
-| ![Splash](screenshot/splash_screen.png)| ![Movies](screenshot/movies_list.png) | ![Movie Details](screenshot/movie_details.png) |
-| Displays a list of popular movies with a toggle button to switch layouts. | Shows movies in a grid layout for a compact view. | Detailed view of a selected movie with favorite toggle. |
+| **Splash Screen**| **Movies List** | **Movie Details** |
+|-----------------------------------------|----------------------------|-------------------|
+| ![Splash](screenshot/splash_screen.png) | ![Movies](screenshot/movies_list.png) | ![Movie Details](screenshot/movie_details.png) |
+| Onboarding Screen.| Shows movies in a grid layout for a compact view. | Detailed view of a selected movie with favorite toggle. |
 
 ## Tech Stack
 
