@@ -1,0 +1,61 @@
+[versions]
+agp = "8.9.2"
+kotlin = "2.0.21"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+koin = "4.0.0"
+navigation-components = "2.7.7"
+coroutines-flow = "1.7.3"
+paging3 = "3.3.2"
+room = "2.6.1"
+retrofit = "2.9.0"
+glide = "4.16.0"
+mockito = "5.12.0"
+mockito-kotlin = "5.4.0"
+core-testing = "2.2.0"
+kotlinx-coroutines = "1.7.3"
+materialVersion = "1.12.0"
+sdp = "1.1.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+mockito = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin" }
+kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "mkotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "core-testing" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+glide= { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+retrofit= { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter= { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+room-runtime= { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room= { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+kapt= { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+paging3= { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "paging3" }
+coroutines-android= { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines-flow" }
+coroutines-core= { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-flow" }
+navigation-components-fragment= { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-components" }
+navigation-components-ui= { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-components" }
+koin-android= { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koin-navigation= { group = "io.insert-koin", name = "koin-androidx-navigation", version.ref = "koin" }
+google-material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+sdp = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "sdp" }
+ssp = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "sdp" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kapt-android = { id = "kotlin-kapt"}
+navigation-android = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation-components" }
+

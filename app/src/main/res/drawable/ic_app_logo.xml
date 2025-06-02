@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="208dp"
+    android:height="208dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    <!-- Film Reel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0M54,54m-30,0a30,30 0,1 0,60 0a30,30 0,1 0,-60 0" />
+    <!-- Film Perforations -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M34,44h-4v4h4v-4zM34,60h-4v4h4v-4zM74,44h-4v4h4v-4zM74,60h-4v4h4v-4z" />
+    <!-- Play Symbol -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M44,40l24,14l-24,14z" />
+</vector>

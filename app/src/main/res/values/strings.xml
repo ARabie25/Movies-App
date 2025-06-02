@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="toggle_layout">Toggle Layout</string>
+    <string name="favorite">Favorite</string>
+    <string name="internet_connectivity">You are offline, showing cached data</string>
+    <string name="splash_logo">App Logo</string>
+    <string name="splash_intro">Watch Anything You Need!</string>
+    <string name="onboarding">Onboarding</string>
+    <string name="sub_text_splash">Watch everything you want for free!</string>
+    <string name="enter_now">Enter now</string>
+
+</resources>
