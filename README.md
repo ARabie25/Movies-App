@@ -75,19 +75,20 @@ Click "Run" to launch the app.
 
 
 ## Project Structure
-movie-app/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/movieapp/
-│   │   │   │   ├── App/               # Application class
-│   │   │   │   ├── data/              # API, database, repository
-│   │   │   │   ├── di/                # Koin dependency injection
-│   │   │   │   ├── domain/            # Use cases, models
-│   │   │   │   ├── ui/                # Fragments, ViewModels
-│   │   │   │   ├── helper/            # Base classes (e.g., BaseFragment)
-│   │   │   ├── res/                   # Layouts, drawables, strings
-│   │   ├── test/                      # Unit tests
+    **movie-app/**:
+    ```bash
+    ├── app/
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   ├── java/com/example/movieapp/
+    │   │   │   │   ├── App/               # Application class
+    │   │   │   │   ├── data/              # API, database, repository
+    │   │   │   │   ├── di/                # Koin dependency injection
+    │   │   │   │   ├── domain/            # Use cases, models
+    │   │   │   │   ├── ui/                # Fragments, ViewModels
+    │   │   │   │   ├── helper/            # Base classes (e.g., BaseFragment)
+    │   │   │   ├── res/                   # Layouts, drawables, strings
+    │   │   ├── test/                      # Unit tests
 
 ## Key Components
 
