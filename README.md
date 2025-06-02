@@ -75,7 +75,7 @@ Click "Run" to launch the app.
 
 
 ## Project Structure
-    **movie-app/**:
+    movie-app/:
     ```bash
     ├── app/
     │   ├── src/
@@ -91,14 +91,15 @@ Click "Run" to launch the app.
     │   │   ├── test/                      # Unit tests
 
 ## Key Components
-
-MoviesListFragment: Displays a paginated list of movies with list/grid toggle.
-MovieDetailsFragment: Shows detailed movie information.
-MoviesViewModel: Manages UI state and intents for the movie list.
-MovieRepositoryImpl: Handles data operations (API calls, database).
-TmdbApi: Retrofit interface for TMDb API.
-AppDatabase: Room database for favorite movies.
-KoinModule: Dependency injection setup.
+0.
+   ```bash
+   - MoviesListFragment: Displays a paginated list of movies with list/grid toggle.
+   - MovieDetailsFragment: Shows detailed movie information.
+   - MoviesViewModel: Manages UI state and intents for the movie list.
+   - MovieRepositoryImpl: Handles data operations (API calls, database).
+   - MovieApi: Retrofit interface for TMDb API.
+   - AppDatabase: Room database for favorite movies.
+   - KoinModule: Dependency injection setup.
 
 ## Testing
 The project includes unit tests for MoviesViewModel and MovieRepositoryImpl. To run tests:
