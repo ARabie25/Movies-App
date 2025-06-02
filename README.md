@@ -15,6 +15,15 @@ It supports offline mode and handles network connectivity gracefully.
 - **Navigation**: Seamless navigation between screens using Android Navigation Component.
 - **Error Handling**: Displays errors via Snackbar for network issues or API failures.
 
+## Screenshots
+
+Below are screenshots showcasing the app's user interface:
+
+| **Splash Screen**  | **Movies List** | **Movie Details** |
+|--------------------|----------------------------|-------------------|
+| ![Splash](screenshot/splash_screen.png)| ![Movies](screenshot/movies_list.png) | ![Movie Details](screenshot/movie_details.png) |
+| Displays a list of popular movies with a toggle button to switch layouts. | Shows movies in a grid layout for a compact view. | Detailed view of a selected movie with favorite toggle. |
+
 ## Tech Stack
 
 - **Language**: Kotlin
@@ -39,11 +48,11 @@ It supports offline mode and handles network connectivity gracefully.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/movie-app.git
-   cd movie-app
+   git clone https://github.com/ARabie25/Movies-App
+   cd Movies-App
 
 
-Add TMDb API Key:
+## Add TMDb API Key:
 
 Create a local.properties file in the project root (if not already present).
 Add your TMDb API key:tmdb_api_key=your_api_key_here
@@ -51,21 +60,21 @@ Add your TMDb API key:tmdb_api_key=your_api_key_here
 
 
 
-Sync and Build:
+## Sync and Build:
 
 Open the project in Android Studio.
 Click "Sync Project with Gradle Files".
 Build the project (Build > Make Project).
 
 
-Run the App:
+## Run the App:
 
 Connect an Android device or use an emulator.
 Click "Run" to launch the app.
 
 
 
-Project Structure
+## Project Structure
 movie-app/
 ├── app/
 │   ├── src/
@@ -80,7 +89,7 @@ movie-app/
 │   │   │   ├── res/                   # Layouts, drawables, strings
 │   │   ├── test/                      # Unit tests
 
-Key Components
+## Key Components
 
 MoviesListFragment: Displays a paginated list of movies with list/grid toggle.
 MovieDetailsFragment: Shows detailed movie information.
@@ -90,18 +99,18 @@ TmdbApi: Retrofit interface for TMDb API.
 AppDatabase: Room database for favorite movies.
 KoinModule: Dependency injection setup.
 
-Testing
+## Testing
 The project includes unit tests for MoviesViewModel and MovieRepositoryImpl. To run tests:
 ./gradlew test
 
-Tests cover:
+## Tests cover:
 
 Fetching movies (online/offline scenarios)
 Toggling list/grid layout
 Adding/removing favorites
 Error handling
 
-Known Issues
+## Known Issues
 
 Ensure a valid TMDb API key is provided in local.properties, or the app will throw an error.
 Offline mode relies on cached data; ensure initial data fetch occurs online.
